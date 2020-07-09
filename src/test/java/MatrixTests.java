@@ -1,6 +1,6 @@
-import de.f73.term6.matrix.Matrix;
-import de.f73.term6.matrix.MatrixCalculationException;
-import de.f73.term6.matrix.MatrixCreationException;
+import de.redoak.cleancode.matrix.Matrix;
+import de.redoak.cleancode.matrix.MatrixCalculationException;
+import de.redoak.cleancode.matrix.MatrixCreationException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

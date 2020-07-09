@@ -1,4 +1,4 @@
-package de.f73.term6.matrix;
+package de.redoak.cleancode.matrix;
 
 public class Main {
 
