@@ -61,10 +61,17 @@ public class MatrixTests {
 
         final Matrix multiplicationResult = left.multiply(right);
 
+        assertEquals(2, multiplicationResult.getColumnSize());
+        assertEquals(2, multiplicationResult.getRowSize());
         assertEquals(22, multiplicationResult.getValue(0, 0));
         assertEquals(28, multiplicationResult.getValue(1, 0));
         assertEquals(49, multiplicationResult.getValue(0, 1));
         assertEquals(64, multiplicationResult.getValue(1, 1));
+
+
+        System.out.println(left.prettyPrint());
+        System.out.println(right.prettyPrint());
+        System.out.println(multiplicationResult.prettyPrint());
     }
 
     @Test

@@ -117,4 +117,18 @@ public class Matrix {
     public int getRowSize() {
         return rowSize;
     }
+
+    public String prettyPrint() {
+
+        StringBuilder stringBuilder = new StringBuilder();
+
+        for(int row = 0; row < this.rowSize; row++) {
+            for(int column = 0; column < this.columnSize; column++) {
+                stringBuilder.append(this.values[column][row]).append(" ");
+            }
+            stringBuilder.append("\n");
+        }
+
+        return stringBuilder.toString();
+    }
 }
